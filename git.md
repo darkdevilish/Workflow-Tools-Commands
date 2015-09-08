@@ -65,9 +65,20 @@ git log --oneline
 git show commit_id
 ```
 
+First time system setup:
+```console
+git config --global user.name "Your Name"
+git config --global user.email your.email@example.com
+git config --global push.default matching
+```
+
 Show git config:
 ```console
 git config --list
+```
+Undo changes not committed:
+```console
+git checkout -f
 ```
 
 Push to repo:
@@ -76,4 +87,5 @@ git remote add origin https://github.com/username/repo_name.git
 git push -u origin master
 git push -u origin --all(to push all branches too)
 git push -u origin +branch_name(after already pushed to github to not have conflict)
+git push(after already done one push)
 ```
