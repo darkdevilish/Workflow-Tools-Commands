@@ -65,6 +65,11 @@ git log --oneline
 git show commit_id
 ```
 
+Show git config:
+```console
+git config --list
+```
+
 Push to repo:
 ```console
 git remote add origin https://github.com/username/repo_name.git
