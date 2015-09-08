@@ -12,13 +12,10 @@ ctrl-w v (split current window vertically, loading same file in new window)
  Working with TABS
  ```console
 vim -p first.txt  second.txt
-<<<<<<< HEAD
-:tabe name_of_file (edit specified file in new tab)
-:tabfind name_of_file (open a new tab with filename given)
-=======
 :tabe filename (edit specified file in new tab)
 :tabfind filename (open a new tab with filename given)
->>>>>>> vim
+:tabe filename (edit specified file in new tab)
+:tabfind filename (open a new tab with filename given)
 :tabc (close current tab)
 :tabonly (close all other tabs to show only current)
 :tabnew	" opens tabpage after the current one
@@ -33,11 +30,8 @@ gT (go to previous tab)
 
 Create and save file
 ```console
-<<<<<<< HEAD
-:w name_of_file
-=======
 :w filename
->>>>>>> vim
+:w filename
 ```
 
 ** Type O to pen a line ABOVE the cursor. **

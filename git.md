@@ -70,4 +70,5 @@ Push to repo:
 git remote add origin https://github.com/username/repo_name.git
 git push -u origin master
 git push -u origin --all(to push all branches too)
+git push -u origin +branch_name(after already pushed to github to not have conflict)
 ```
