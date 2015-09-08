@@ -69,8 +69,5 @@ Push to repo:
 ```console
 git remote add origin https://github.com/username/repo_name.git
 git push -u origin master
-<<<<<<< HEAD
-=======
 git push -u origin --all(to push all branches too)
->>>>>>> git
 ```
