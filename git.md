@@ -89,3 +89,12 @@ git push -u origin --all(to push all branches too)
 git push -u origin +branch_name(after already pushed to github to not have conflict)
 git push(after already done one push)
 ```
+
+Tagging for versioning:
+```console
+    git tag(list tags)
+    git tag -a v1.0 -m "My version 1.0"(creates tag)
+    git show v1.0
+    git tag -a v1.0 commit_id(to tag later)
+    git push origin v1.0 or --tags
+```
