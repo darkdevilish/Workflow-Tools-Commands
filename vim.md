@@ -48,6 +48,7 @@ Copy and Paste Text
 Type v to get in visual mode and move cursor with jklh to highlight what you want to copy
 Type y to yank (copy) or d (to cut) the highlighted text
 Type p to put (paste) the text
+"+yy (copy to system clipboard)
 NOTE: you can also use y as an operator; yw yanks one word.
 ```
 
