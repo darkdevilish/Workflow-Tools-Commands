@@ -44,7 +44,11 @@ Paste
 ```console
 On INSERT mode CTRL-SHIFT-v
 p (paste previously deleted text after cursor)
+:set paste(to paste from clipboard without autoindent) :set nopaste(after done)
 ```
+
+Indent multiple lines
+    get in visual mode select and then >
 
 Copy and Paste Text
 ```console
